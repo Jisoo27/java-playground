@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BallTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-30T16:53:51" hostname="Jisuui-MacBookPro.local" time="0.101">
+<testsuite name="BallTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-30T17:11:35" hostname="Jisuui-MacBookPro.local" time="0.112">
   <properties/>
-  <testcase name="ball()" classname="BallTest" time="0.097"/>
-  <testcase name="nothing()" classname="BallTest" time="0.001"/>
+  <testcase name="strike()" classname="BallTest" time="0.097"/>
+  <testcase name="ball()" classname="BallTest" time="0.001"/>
+  <testcase name="nothing()" classname="BallTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
