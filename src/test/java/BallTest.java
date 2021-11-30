@@ -11,6 +11,12 @@ public class BallTest {
         com = new Ball(1, 4);
     }
 
+    @Test
+    void strike() {
+        BallStatus status = com. play(new Ball(1, 4));
+        assertThat(status).isEqualTo(BallStatus.STRIKE);
+    }
+
 
     @Test
     void ball() {
