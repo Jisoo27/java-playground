@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,java,intellij+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,java,intellij+all
+# Created by https://www.toptal.com/developers/gitignore/api/macos,intellij+all,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,intellij+all,java
 
 ### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -148,4 +148,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,java,intellij+all
+# End of https://www.toptal.com/developers/gitignore/api/macos,intellij+all,java
