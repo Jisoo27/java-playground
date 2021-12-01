@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Ball {
     private final int position;
     private final int ballNo;
@@ -8,7 +10,7 @@ public class Ball {
     }
 
     public BallStatus play(Ball ball) {
-        if(this.equals(ballNo)) {
+        if(this.equals(ball)) {
             return BallStatus.STRIKE;
         }
         if(ball.matchBallNo(ballNo)) {
@@ -23,5 +25,12 @@ public class Ball {
     }
 
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ball ball = (Ball) o;
+        return position == ball.position && ballNo == ball.ballNo;
+    }
 
 }
