@@ -1,9 +1,27 @@
 public class Ball {
-    public Ball(int position, int ballNo) {
+    private final int position;
+    private final int ballNo;
 
+    public Ball(int position, int ballNo) {
+        this.position = position;
+        this.ballNo = ballNo;
     }
 
     public BallStatus play(Ball ball) {
-       return BallStatus.NOTHING;
+        if(this.equals(ballNo)) {
+            return BallStatus.STRIKE;
+        }
+        if(ball.matchBallNo(ballNo)) {
+            return BallStatus.BALL;
+        }
+        return BallStatus.NOTHING;
+
     }
+
+    private boolean matchBallNo(int ballNo) {
+        return this.ballNo == ballNo;
+    }
+
+
+
 }

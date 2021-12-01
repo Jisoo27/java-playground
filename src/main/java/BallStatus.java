@@ -1,3 +1,3 @@
 public enum BallStatus {
-    NOTHING
+    BALL, STRIKE, NOTHING
 }
